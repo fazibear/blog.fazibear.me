@@ -3,8 +3,11 @@ author: Michał Kalbarczyk
 description: Programming Adventures with Michał Kalbarczyk
 url: "https://blog.fazibear.me"
 ga: "G-4093L52QLW"
+nav_logo: blog.fazibear.me
 
 permalink: /:title
+
+theme: "fazibear.me"
 
 plugins:
   - jekyll-feed
@@ -15,4 +18,4 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: "terminal"
