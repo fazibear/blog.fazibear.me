@@ -1,5 +1,6 @@
-PATH
-  remote: ../fazibear.me
+GIT
+  remote: https://github.com/fazibear/fazibear.me.git
+  revision: 50c864bda94f59cbac5ab4fa88d835a55b0dc9f0
   specs:
     fazibear.me (0.1.0)
       jekyll (> 4.4)
