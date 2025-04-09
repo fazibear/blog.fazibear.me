@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/fazibear/fazibear.me.git
-  revision: 319c0d9cdea776d8140aa0d596cb9148d003b5de
+  revision: 45c7fc34cd873c495fde739c9bf88796b985737e
   specs:
     fazibear.me (0.1.0)
       jekyll (> 4.4)
