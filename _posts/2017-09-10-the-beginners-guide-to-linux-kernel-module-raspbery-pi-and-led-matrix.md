@@ -78,7 +78,7 @@ module_exit(pix_exit);
 
 This is a simple kernel module template. We have two functions that will invoke when the module will load or unload. Now we can `make` it, and try to load it. To load a kernel module you have to type `sudo insmod pix_mod.ko`. If it works, let’s check `dmesg`, wow there is our message. Great. We can move forward.
 
-# Use GPIO from kernel space
+## Use GPIO from kernel space
 
 We don’t need to write GPIO driver. Rapsbian have one. we need to just use it. We will add two more functions to init and release our GPIOs.
 
@@ -187,7 +187,7 @@ There is two function for initializing and release our thread. We will use them 
 
 Now we can display pictures on our matrix. We miss one more thing, how other programs will set pixels?
 
-# Sysfs interface
+## Sysfs interface
 
 The last thing that we have to implement is an sysfs interface. It’s a simple file that you can write to. For example, to lit up the 5th pixel in the 10th row in white you have to `5 10 1 1 1` string to that file. There are 5 values. X, Y, R, G, B. The RGB values are booleans, but later I’ll try to implement some kind of PWM to archive more colors.
 

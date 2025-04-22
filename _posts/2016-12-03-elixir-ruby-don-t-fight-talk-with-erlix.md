@@ -317,6 +317,6 @@ $ ruby main.rb
 
 Great! `Connected to …@…` nice, take a look at Elixir console… `Ruby connected` Wow it works. Let’s send some messages. On Elixir console just type, for example, `hello from elixir` end hit enter! What is on Ruby console ? Our message! `Message from elixir: hello from elixir!` Now from Ruby. Type on ruby console `hello from ruby` again hit enter. What is on elixir console ? Right: `Message from ruby: hello from ruby!` We’re connected. Another great success!
 
-# Unstable!
+## Unstable!
 
 After some [benchmarks](https://blog.fazibear.me/elixir-ruby-dont-fight-benchmark-9c6f442de37e#.38sn5dr82), I figure out that erlix is very unstable. Erlix crashes after about 1500 messages. Unfortunately, memory management is broken, there is a lot of TODOin the source code.
