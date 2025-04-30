@@ -5,6 +5,10 @@ url: "https://blog.fazibear.me"
 ga: "G-4093L52QLW"
 nav_logo: blog.fazibear.me
 
+visitors:
+  path: fazibear.me
+
+
 permalink: /:title
 
 theme: "fazibear.me"
