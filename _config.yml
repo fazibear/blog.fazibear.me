@@ -7,7 +7,8 @@ nav_logo: blog.fazibear.me
 
 visitors:
   path: fazibear.me
-
+  label: "000000"
+  count: "000000"
 
 permalink: /:title/
 
